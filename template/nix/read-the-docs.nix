@@ -1,8 +1,5 @@
-# haskell.nix is used to produce the nix derivations to build your project.
-# It provides a base shell on top of which to build your development environment.
-# The derivations coming 
+# The haskell.nix project
 
-A new haskell-nix project 
 {
   # Desystemized merged inputs.
   # All the inputs from iogx (e.g. CHaP, haskell-nix, etc..) unioned with the 
@@ -36,20 +33,6 @@ A new haskell-nix project
 , enableProfiling
 }:
 
-{
-  extraCabalConfig = "";
-  
-  sha256map = {};
-
-  inputMap = {};
-
-  shellWithHoogle = false; 
-
-  modules = [{ ... }: {
-
-  }];
-
-}
 let
   lib = pkgs.lib;
 

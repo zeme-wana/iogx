@@ -1,4 +1,5 @@
 # Your development shell is defined here.
+# A development shell is available for each compiler defined in iogx-config.nix.
 # You can add packages, scripts, envvars, and a shell hook.
 
 {
@@ -13,10 +14,7 @@
   # inputs defined in your flake. You will also find the `self` argument here. 
   # These inputs have not been desystemized, they are the original `inputs` from
   # iogx and your `flake.nix`.
-, systemized-inputs
-
-  # The very attrset passed to `inputs.iogx.mkFlake` in your `flake.nix`.
-, flakeopts
+, inputs'
 
   # Desystemized legacy nix packages configured against `haskell.nix`.
   # NEVER use the `nixpkgs` coming from `inputs` or `systemized-inputs`!
