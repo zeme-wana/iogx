@@ -11,11 +11,11 @@
     flake-utils.url = "github:numtide/flake-utils";
 
     haskell-nix = {
-      url = "github:input-output-hk/haskell.nix/56a471cfce2c61031e193bdef527bbd6e646454e"; # 3 May 2023
+      url = "github:input-output-hk/haskell.nix";
       inputs.hackage.follows = "hackage";
     };
 
-    nixpkgs.follows = "haskell-nix/nixpkgs-2211";
+    nixpkgs.follows = "haskell-nix/nixpkgs-2305";
 
     hackage = {
       url = "github:input-output-hk/hackage.nix";
