@@ -1,3 +1,5 @@
+**As of 16/06/2023 this repository is hosted at https://github.com/input-output-hk/iogx**
+
 # IOGX - Standard flake for IOG projects
 
 This flake provides a standard environment for IOG Haskell projects.
